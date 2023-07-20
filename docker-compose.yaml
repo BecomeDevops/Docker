@@ -1,0 +1,7 @@
+version: '3'
+services:
+   nginx:
+     container_name: mynginxcon
+     image: nginx
+     ports:
+       - "80:80"
